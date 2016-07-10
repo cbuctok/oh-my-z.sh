@@ -1,6 +1,6 @@
 sudo add-apt-repository ppa:gnome-terminator
 sudo apt-get update
-sudo apt-get install terminator zsh dconf-cli
+sudo apt-get install terminator zsh dconf-cli vim
 cd
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 cd
@@ -20,5 +20,6 @@ wget https://raw.githubusercontent.com/seebi/dircolors-solarized/master/dircolor
 mv dircolors.ansi-dark .solarized
 
 vim ~/.zshrc
+
 #ZSH_THEME="agnoster"
 #eval `dircolors ~/.solarized/dircolors.ansi-dark`
